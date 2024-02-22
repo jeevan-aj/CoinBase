@@ -8,8 +8,10 @@ import Footer from "./Footer";
 import Getstarted from "./Getstarted";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import Status from "./Status";
+import Status from "./Stats";
 import Testimonial from "./Testimonial";
+import Stats from './Stats'
+import Button from "./Button";
 
 export {
   Billing,
@@ -24,4 +26,8 @@ export {
   Navbar,
   Status,
   Testimonial,
+  Stats,
+  Button,
 };
+
+
