@@ -29,9 +29,10 @@ const Bussiness = () => {
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature,index)=> (
-          <FeatureCard key={features.id} {...feature} index={index}/>
+          <FeatureCard key={index} {...feature} index={index}/>
         ))}
       </div>
+      
     </section>
   );
 };

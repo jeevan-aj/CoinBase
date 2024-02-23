@@ -7,7 +7,6 @@ import {
   Carddeal,
   Client,
   Cta,
-  FeedbackCard,
   Footer,
   Hero,
   Navbar,
@@ -37,11 +36,11 @@ function App() {
             <Bussiness />
             <Billing />
             <Carddeal />
+            <Testimonial />
             <Client />
             <Cta />
-            <FeedbackCard />
             <Footer />
-            <Testimonial />
+           
           </div>
         </div>
       </div>
